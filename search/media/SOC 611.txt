@@ -1,0 +1,15 @@
+SOC 611Introduction.  Information architecture and Web-based
+      applications, Web services and service oriented computing.
+      Introduction to XHTML; style sheets; dynamic content.
+      XML, DTDs
+      Web 2.0: Wikis and mash-ups.  Why Web sites fail.  Case studies.
+      Requirements Analysis: Introduction, Stakeholders, Risks
+      Requirements Analysis: Requirements Specification, Use Cases
+      Requirements Analysis: Requirements Specification, Interaction
+      Requirements Analysis: Agile methods, User Stories
+      Requirements Analysis: Prototyping and Design, Class Diagrams 
+      Database theory: Introduction, Design
+      Database theory: MS Access and QBE, simple SQL
+      Database theory: Normalization
+      Database theory:  Design
+      

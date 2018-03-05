@@ -1,0 +1,44 @@
+<html>
+
+
+<head>
+{% include "/var/www/coursewiki/search/templates/search/navbar.html" %}
+</head>
+
+
+<body>
+
+
+<form  method="POST" style="margin:0 auto; width:388px">
+{% csrf_token %}
+<div style="padding:2px; width:378px; ">
+{{form.project_name.label_tag}}<br>{{form.project_name}}
+</div>
+<div style="padding:2px;">
+{{form.project_description.label_tag}}<br>{{form.project_description}}
+</div>
+<div style="padding:2px;">
+{{form.project_url.label_tag}}<br>{{form.project_url}}
+</div>
+<div style="padding:2px;">
+{{form.project_location.label_tag}}<br>{{form.project_location}}
+</div>
+<div style="padding:2px;">
+{{form.first_name.label_tag}}<br>{{form.first_name}}
+</div>
+<div style="padding:2px;">
+{{form.public_profile.label_tag}}<br>{{form.public_profile}}
+</div>
+
+
+
+
+<input type="submit" value="submit"></input>
+
+</form>
+
+
+
+</body>
+
+</html>

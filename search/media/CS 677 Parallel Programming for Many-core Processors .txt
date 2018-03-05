@@ -1,0 +1,11 @@
+CS 677 Parallel Programming for Many-core Processors Introduction to massively parallel programming and CUDA 
+      CUDA threads and atomics; CUDA memories 
+      Performance considerations 
+       More performance considerations and floating point representation.
+       Case study: MRI reconstruction and timers  Project ideas; convolution, constant memory and cache,
+      reduction trees Project proposals; convolution (cont.), paralle
+      patterns; prefix sum; sparse matrix and vector operations summed
+      area tables
+       Midterm  Case study: electrostatic potential calculation; input
+      binning; computational thinking  CUDA streams; Thrust; more libraries  Project mid-point presentations; OpenCL  More on OpenCL  Fermi and Kepler; CUDA 4.0, 5.0 and 6.0; OpenACC; DirectCompute Project presentations
+      

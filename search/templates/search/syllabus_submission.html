@@ -1,0 +1,18 @@
+<html>
+
+<head>
+{% include "/var/www/coursewiki/search/templates/search/navbar.html" %}
+</head>
+
+<body>
+
+<form action="" method="POST">
+{% csrf_token %}
+<div style="clear:both;">
+{{form}}
+</div>
+<input type="submit" value="send"></input>
+</form>
+</body>
+
+</html>

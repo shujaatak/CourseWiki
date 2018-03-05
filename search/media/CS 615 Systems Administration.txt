@@ -1,0 +1,15 @@
+CS 615 Systems AdministrationIntroduction.  Policies, Overview,  UNIX history and basics.
+        File systems and disks.
+      Software installation concepts.
+      Multi-user basics, politics, policies and ethics.
+      Automating Administrative Tasks.
+      Networking
+      Backup and Disaster Recovery.
+      DNS
+      SMTP, HTTP
+      Configuration management
+      Distributed computing
+      SNMP, monitoring
+      System security
+      Guest/lecture/field trip/presentations/review
+      

@@ -1,0 +1,15 @@
+CS 135 Discrete StructuresCourse intro; intro to logic.
+      Predicate logic
+      Proofs; set theory.
+      Functions.
+      Sequences; induction
+      Induction and recursion
+      Structural induction
+      Algorithmics: tail recursion, halting problem
+      Relations
+      Transitive closure, equivalence
+      Integers, division 
+      Number theory
+      Number theory and cryptography
+      Intro to graph theory
+      

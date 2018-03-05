@@ -1,0 +1,47 @@
+
+<html>
+<head>
+<link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.0/css/tachyons.min.css"/>
+
+<style>
+
+em{
+background-color:yellow;
+}
+
+p{
+margin-top:0px;
+}
+
+a {
+
+text-decoration:none;
+font-size:18px;
+}
+
+ul{
+text-decoration:none;
+}
+
+</style>
+
+</head>
+
+<body>
+{% include "/var/www/coursewiki/search/templates/search/navbar.html" %}
+<div style="clear:both;">
+<h2> results for {{query}} </h2>
+
+
+<ul style="list-style:none;">
+{% for item in query_result %}
+    <li><a href="/syllabus/{{item.id}}/" target="_blank"   content_type='syllabus' object_id=temp_syllabus_pk  > {{item.id}}</a></li>
+        
+          <p> {{item.snippet|safe}}</p>
+            
+{% endfor %}
+
+</ul>
+</div> 
+</body>
+</html>

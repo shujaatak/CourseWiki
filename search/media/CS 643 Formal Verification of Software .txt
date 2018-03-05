@@ -1,0 +1,15 @@
+CS 643 Formal Verification of Software Course overview; review of sets, relations, functions.
+      Introduction to Alloy specifications.
+      Modeling and analysis using Alloy.
+      More modeling and analysis using Alloy.
+      Dynamic models.
+      More on dynamic models in Alloy.
+      Alloy case study.
+      Design by contract. Basics of specification, verification, and weakest preconditions 
+      More verification and weakest preconditions 
+      Verification using Alloy vs verification by proof.  Abstraction and predicate abtraction 
+      Overview of UML/OCL and connections with Alloy. Introduction to JML and ESC/Java. 
+      Subclassing and behavioral subtyping;  modifies, and invariants in JML 
+      Final project presentations and discussion 
+      Final project presentations and discussion 
+      

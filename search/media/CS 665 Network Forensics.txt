@@ -1,0 +1,15 @@
+CS 665 Network ForensicsIntroduction.  Host security and network security.  Basic cryptography and cryptanalysis. Steganography. Traffic types.
+      Basic traffic analysis. Pcap vs. NetFlow vs. Headers.
+      Approaches for Traffic and Data Anonymization.
+      Network Statistics and Visualization
+      Network Analysis Experiences
+       Mathematical Traffic Models
+      Project presentations I 
+      Multiresolution Analysis I  
+      Multiresolution Analysis II
+      Sidechannel Analysis
+      Connecting the dots: relating to the host 
+      Basic host forensics
+      Special topics
+      Project presentations II 
+      

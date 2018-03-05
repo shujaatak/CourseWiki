@@ -1,0 +1,15 @@
+CS 693 Cryptographic Protocols Review of basic crypto
+      Techniques for provable security
+      Commitment schemes
+      More on commitments
+      Introduction to Zero-knowledge proofs
+      Zero-knowledge for all NP
+      Zero-knowledge beyond NP
+      Midterm presentations
+      Secret sharing
+      Introduction to secure function evaluation
+      Secure evaluation of arithmetic circuits: the protocol
+      Secure evaluation of arithmetic circuits: passive security
+      Secure evaluation of arithmetic circuits: active security
+      Secure evaluation of boolean circuits
+      

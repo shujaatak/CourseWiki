@@ -1,0 +1,27 @@
+<html>
+
+<head>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'registration/style01.css' %}" />
+{% include "/var/www/coursewiki/search/templates/search/navbar.html" %}
+</head>
+
+<body>
+
+<form id='register-form' method='post'>
+  {% csrf_token %}
+  
+  
+  	
+  <input type="text" name="username" id="id_username" placeholder="Username" required> {{form.username.errors}}
+  <input type="email" name="email" id="id_email" placeholder="Email" required>{{ form.email.errors}}
+  <input type="password" name="password1" id="id_password1" placeholder="Password" required>{{form.password1.errors}}
+  <input type="password" name="password2" id="id_password2" placeholder="Re Password" required>{{form.password2.errors}}
+  
+  <button type='submit'>Register</button>
+  <a href="http://45.79.170.4/accounts/login">Already Member ? Sign In Now..</a>
+
+</form>
+
+</body>
+</html>

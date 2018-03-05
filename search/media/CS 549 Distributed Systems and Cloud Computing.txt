@@ -1,0 +1,22 @@
+CS 549 Distributed Systems and Cloud ComputingIntroduction to distributed systems and cloud computing.  Cloud architectures: SaaS, PaaS, IaaS.  End-to-end system design.  Networks and protocol stacks.
+      Client-server computing.  Sockets and remote procedure call.  
+      Distributed file systems and cache consistency.  NFS, AFS.  Storage in the Cloud: Google/Hadoop file system.
+      Web services and REST.  Example: Amazon S3.  The JAX-RS API. Persistent cloud services.
+      Failure models and failure detectors.  
+      Asynchrony: publish-subscribe.  Server-side events and
+      REST.  Web sockets.  Vert.x: Node.js for Java.  Distributed snapshots.
+      Distributed debugging.  Time and ordering of events.
+      Causal broadcasts.
+      Batch cloud computing: map-reduce and Hadoop.
+      Domain-specific languages for cloud data processing: Pig and Hive.
+      Transactions.  Serializability and recoverability.
+      Long-lived transactions.
+      Transactions.  Atomic commitment protocols: 2PC and 3PC.
+      Highly available services.  Replicated services and
+      quorum consensus.  The CAP Theorem.
+      NoSQL data stores. Table-based (Google BigTable),
+      key-based (Amazon Dynamo), and Cassandra.  The Hector API.
+      Query processing with Map-reduce.
+      Consensus and the Paxos algorithm.   Applications in the cloud: Google Chubby, Yahoo Zookeeper.
+      Peer-to-peer systems.  Distributed hash tables.  Applications in multiplayer game-playing.
+      

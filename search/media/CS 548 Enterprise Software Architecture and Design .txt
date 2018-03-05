@@ -1,0 +1,71 @@
+CS 548 Enterprise Software Architecture and Design Enterprise information systems.  Software architecture.
+Middleware, Web services and Cloud computing.
+      
+Data Modeling.  UML and E-R models.  XML Schemas.  
+      
+Data Processing.  Strategies for data processing.  Introduction to
+XQuery.  JSON.
+      
+Domain-Driven Architecture.  Domain-driven design (DDD).
+Object-relational mapping (ORM).
+      
+Service-oriented Architecture (SOA).  Standardized service contract.
+Loose coupling.  Service abstraction.
+      
+Service-oriented Architecture (SOA).  Reusability and autonomy.
+Statelessness.  Service discoverability.
+      
+Resource-Oriented Architecture (ROA).
+Plain Old XML (POX) and REST.  Hypermedia networks.
+      
+Message-Oriented Middleware (MOM).  Asynchronous enterprise
+integration patterns.
+      
+Event-Driven Architecture (EDA).  Complex event processing.
+Semantic Data Modeling.  Introduction to RDF and RDFS.
+      
+Semantic data modeling.  RDFS and OWL.
+      
+Business Processing Modeling. Descriptive and analytic BPMN.
+      
+Petri Nets and Workflow.  Place-transition and workflow nets.
+      
+Cloud Data Stores.  Relational vs. object data models.  Algebras and co-algebras.
+      
+Contexts and dependency injection (CDI).  Transactional APIs.
+      CS 548 Enterprise Software Architecture and Design Enterprise information systems.  Software architecture.
+Middleware, Web services and Cloud computing.
+      
+Data Modeling.  UML and E-R models.  XML Schemas.  
+      
+Data Processing.  Strategies for data processing.  Introduction to
+XQuery.  JSON.
+      
+Domain-Driven Architecture.  Domain-driven design (DDD).
+Object-relational mapping (ORM).
+      
+Service-oriented Architecture (SOA).  Standardized service contract.
+Loose coupling.  Service abstraction.
+      
+Service-oriented Architecture (SOA).  Reusability and autonomy.
+Statelessness.  Service discoverability.
+      
+Resource-Oriented Architecture (ROA).
+Plain Old XML (POX) and REST.  Hypermedia networks.
+      
+Message-Oriented Middleware (MOM).  Asynchronous enterprise
+integration patterns.
+      
+Event-Driven Architecture (EDA).  Complex event processing.
+Semantic Data Modeling.  Introduction to RDF and RDFS.
+      
+Semantic data modeling.  RDFS and OWL.
+      
+Business Processing Modeling. Descriptive and analytic BPMN.
+      
+Petri Nets and Workflow.  Place-transition and workflow nets.
+      
+Cloud Data Stores.  Relational vs. object data models.  Algebras and co-algebras.
+      
+Contexts and dependency injection (CDI).  Transactional APIs.
+      

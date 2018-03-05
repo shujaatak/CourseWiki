@@ -1,0 +1,15 @@
+CS 442 Database Management SystemsIntroduction
+      Entity-Relationship (ER) Model
+      Relational Model
+      Relational Database Design
+      Relational Algebra
+      SQL
+      SQL
+      Midterm
+      Database programming
+      Functional dependencies
+      Schema normalization
+      Schema refinement
+      XML
+      Database security
+      

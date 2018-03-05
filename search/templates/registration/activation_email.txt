@@ -1,0 +1,2 @@
+
+This activation link https://www.wimson.in/accounts/activate/{{activation_key}} will be active for {{expiration_days}}days.

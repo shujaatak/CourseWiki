@@ -1,0 +1,15 @@
+SOC 605Introduction to service oriented computing
+      Introduction to Visual Basic
+      Navigating the Visual Basic environment
+      Creating an application interface
+      Working with menus and toolbars
+      Storing and retrieving data in memory
+      Applying conditional logic
+      Processing data with loops
+      Enhancing code structure and organization
+      Getting comfortable with object-oriented programming
+      More on object-oriented programming
+      Integrating graphics and audio
+      Debugging Visual Basic applications
+      Overview of Internet programming
+      

@@ -1,0 +1,16 @@
+CS 347 Software Development ProcessSoftware Engineering: intro and history
+      Stages of software development
+      Software process
+      Software process
+      Agile processes
+      Requirements
+      Requirements
+      Design patterns
+      Design patterns
+      Refactoring
+      Refactoring
+      Testing
+      Testing
+      Legacy code
+      Final exam time slot
+      

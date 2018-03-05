@@ -1,0 +1,28 @@
+SOC 553 Introduction to Text Mining and StatisticalOverview, Problem Types,
+Text vs. Data Mining
+      Collect, Standardize, Tokenize,
+Generate Vectors, Term
+Frequencies-Inverse Document
+Frequencies (tf-idf)
+      Sentence Boundaries, Parts-of-
+Speech Tagging, word Sense
+Disambiguation, Full Sentence
+Parsing
+      Application of software to
+extract results of Chapter 2 topics
+      Classification: Nearest
+Neighbor, Decision Rules/Trees
+      Classification: Probabilistic,
+Weighted Scores, Evaluation
+      Midterm
+      Information Retrieval
+      Document Collection Structure:
+Similarity, Clustering, Evaluation
+      Information Retrieval and Extraction
+      Mixed Text and Data from
+Databases, WWW, and other
+Hybrid Sources
+      Applications
+      Advanced Topics:
+Summarization, Active Learning
+      

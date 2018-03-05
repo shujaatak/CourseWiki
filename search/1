@@ -1,0 +1,188 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+from django.template import loader
+from django.http import HttpResponseRedirect
+from .forms import SearchForm
+import pycurl
+from xml.etree import cElementTree as ET
+from io import BytesIO
+import mysql.connector
+
+
+
+
+
+
+add_query = ("INSERT INTO testing_wiki (query,garbage) VALUES (%s,%s) ")
+
+
+wiki_query=""
+
+class result1:
+    name=""
+    content=""
+    snippet=""
+    id=1
+
+
+
+
+
+
+
+
+# Create your views here.
+
+
+'''def index(request):
+	context={}
+	template = loader.get_template('search/index.html')
+	return HttpResponse(template.render(context, request))
+'''
+
+def index(request):
+    form = SearchForm()
+    template = loader.get_template('search/index.html')
+    context={'form': form, 'userid':'tst17'}
+    
+    #    raise crypt.AppIdentityError("Wrong hosted domain.")
+    return HttpResponse(template.render(context, request))
+    
+    # if this is a POST request we need to process the form data
+'''    if request.method == 'POST':
+        # create a form instance and populate it with data from the request:
+        form = SearchForm(request.POST)
+        # check whether it's valid:
+        if form.is_valid():
+            # process the data in form.cleaned_data as required
+            # ...
+            query= form.cleaned_data['search_query']
+            context={'query':query}
+            # redirect to a new URL:
+            template=loader.get_template('search/result.html')
+            return HttpResponse(template.render(context, request))
+    # if a GET (or any other method) we'll create a blank form
+    else:
+        
+        '''
+    
+
+
+
+
+def login(request):
+    template = loader.get_template('search/index.html')
+    if request.method=='POST':
+    	token=request.POST['idtoken']
+    	CLIENT_ID='535075582690-pianvlpvq9lm07lbv71dh5fdgklvoe8n.apps.googleusercontent.com'
+    	try:
+    		idinfo = client.verify_id_token(token, CLIENT_ID)
+
+    # Or, if multiple clients access the backend server:
+    #idinfo = client.verify_id_token(token, None)
+    #if idinfo['aud'] not in [CLIENT_ID_1, CLIENT_ID_2, CLIENT_ID_3]:
+    #    raise crypt.AppIdentityError("Unrecognized client.")
+    		if idinfo['iss'] not in ['accounts.google.com', 'https://accounts.google.com']:
+    			raise crypt.AppIdentityError("Wrong issuer.")
+
+    # If auth request is from a G Suite domain:
+    #if idinfo['hd'] != GSUITE_DOMAIN_NAME:
+    #    raise crypt.AppIdentityError("Wrong hosted domain.")
+    	except crypt.AppIdentityError:
+    		print("ivalid token")
+		#nothing here
+		# Invalid token
+    	userid = idinfo['sub']
+    	context={'userid':userid}
+    	return HttpResponse(template.render(context,request))
+	
+	
+
+
+
+def result(request):
+    
+    query=""
+    if request.method == 'GET':
+        # create a form instance and populate it with data from the request:
+        form = SearchForm(request.GET)
+        # check whether it's valid:
+        if form.is_valid():
+            # process the data in form.cleaned_data as required
+            # ...
+            buffer = BytesIO()
+            result_list=[]
+            query=form.cleaned_data['search_query']
+            query=query.replace(" ","+")
+             
+            c = pycurl.Curl()
+            def_url="http://45.79.170.4:8983/solr/courselibrary/select?hl.fl=content&hl=on&indent=on&wt=xml&q="
+            calling_url=def_url+query
+            c.setopt(c.URL,calling_url)
+            c.setopt(c.WRITEDATA, buffer)
+            c.perform()
+            body = buffer.getvalue()
+            xmlstr = body.decode("iso-8859-1")
+           
+            #for fetching content and id 
+            root = ET.fromstring(xmlstr)
+            result=root.findall("result")
+            documents=result[0].findall("doc")
+            for i in documents:
+                result_object=result1()
+                string=i.findall("str")
+                for j in string:
+                    name=j.get("name")
+                    if name=="content":
+                        result_object.content=j.text
+                        print(result_object.content)
+                    if name=="id":
+                        result_object.id=j.text
+                        print(result_object.id)
+                    if name=="file123":
+                        result_object.name=j.text
+                        print(result_object.name)
+                result_list.append(result_object)
+                
+            #for fetching highlighting snippet
+            result123=root.findall("lst")
+            for k in result123:
+                highlight_element=k.get("name")
+                if highlight_element=="highlighting":
+                    list_unhigh=k.findall("lst")
+                    for l in list_unhigh:
+                        for obj in result_list:
+                            if obj.id==l.get("name"):
+                                
+                                attr=l.findall("arr")
+                                
+                                for m in attr:
+                                    highlighting_strelement=m.findall("str")
+                                    for n in highlighting_strelement:
+                                        obj.snippet=n.text
+                                        (obj.snippet)
+            
+            display_list=[]
+            for w in result_list:
+                w.name=w.name
+                w.name=w.name.replace("C:\\Users\\viraj\\coursewiki\\"," ")
+                w.name=w.name.strip(" ")
+                w.name=w.name.strip(".txt")
+                w.id=w.id.replace(" ","%20")
+                
+                display_list.append(w)
+                
+            context={'query_result':display_list,
+                     'url_called':calling_url}
+            # redirect to a new URL:
+            template=loader.get_template('search/result.html')
+            return HttpResponse(template.render(context, request))
+    # if a -GET- (or any other method) we'll create a blank form
+    else:
+        form = SearchForm()
+        template = loader.get_template('search/index.html')
+        context={'form': form}
+    return HttpResponseRedirect('/search')
+    #return HttpResponse(template.render(context, request))
+    
+    

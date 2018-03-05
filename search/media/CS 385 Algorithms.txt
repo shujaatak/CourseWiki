@@ -1,0 +1,37 @@
+CS 385 Algorithms 
+        Introduction, Important problem types, Review of fundamental data structures. 
+      
+        Analysis framework; big-O, Theta, Omega; Analysis of non recursive algorithms.
+       
+        Analysis of recursive algorithms, Master theorem.
+       
+        Brute force algorithms, Exhaustive search.
+      
+        Divide and conquer algorithms;
+        Review Mergesort, Quicksort, Binary search.
+      
+        Decrease and conquer algorithms; 
+        DFS, BFS, and topological sorting.
+      
+        Instance simplification: presorting, Gauss elimination, 
+        and balanced search trees. 
+        Representation change: Horner's rule and binary exponentiation.
+      
+           Space-time tradeoffs: string matching, hashing, red-black
+	   trees, B-trees.
+      
+        Dynamic programming: Binomial Coefficients, Floyd and Warshall algorithms, 
+        Knapsack problem, memory functions.
+      
+        Greedy technique. Prim's algorithm, Kruskal's algorithm,
+        Dijkstra's algorithm, and Huffman trees.
+      
+        Iterative algorithms.  Simplex Method,
+        Maximum flow through Ford Fulkerson method.
+      
+        Lower bound arguments; Decision Trees; P, NP, and NP complete problems.
+      
+        Numerical algorithms. 
+        Backtracking, Branch-and-bound.
+       Approximation algorithms for NP-hard problems. 
+      

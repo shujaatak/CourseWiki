@@ -1,0 +1,27 @@
+CS 370 Creative Problem Solving and Team ProgrammingIntroduction to competitive programming and working with
+      online judges.  Fast input.
+      Working in teams:
+Pre-contest preparation, dividing the work, developing test cases.
+      Numerical algorithms, part 1:
+extracting digits of an integer without strings, storing visited
+states in a lookup table.
+      Numerical algorithms, part 2:
+efficiently find factors and primes and to solve equations
+numerically.
+      String manipulation; recursive generating permutations
+      and combinations of a set.
+      Using memoization combined with lists/sets to find all
+      optimal solutions to a problem.
+      Overcoming differences in languages; files, strings, and
+      bitwise operators.
+      Creating good test cases.
+Implementing an algorithm for which there is no standard approach.
+      Dynamic programming, part 1:
+Recognizing problems that fit DP; comparison to memoization.
+      Dynamic programming, part 2:
+Practicing problems.
+      Project selection.  Class time: team work, seek advice.
+      Group presentations.
+      Project selection.  Class time: team work, seek advice.
+      Group presentations.
+      

@@ -1,0 +1,18 @@
+CS 334 Automata and ComputationCourse introduction - contents - objectives - grading
+      policies Preliminaries - Basic mathematical and logical
+      concepts. Tutorial on Functions (injective, surjective,
+      bijective) Proofs by induction and by contradiction.
+      Regular languages - Finite automata 
+      Non-deterministic finite automata - Closure Properties
+      Kleene's Theorem 	
+      Regular expressions - Pumping Lemma
+      Review and Exam
+      Programs and computable functions.
+      Macros
+      Turing Machines - Primitive recursive functions.
+      Primitive recursive predicates - Minimalization.
+      Goedel numbers - The Halting problem - Universality.
+      Exam II
+      Recursively enumerable sets - The Parameter Theorem.
+      Diagonalization and reducibility - Rice's Theorem.
+      

@@ -1,0 +1,32 @@
+<html>
+
+<head>
+
+<style>
+ul{clear:both;list-style:none;}
+a {text-decoration:none; color:blue;}
+
+</style>
+
+{% include "/var/www/coursewiki/search/templates/search/navbar.html" %}
+
+</head>
+
+
+<body>
+
+
+<ul>
+{% for x in all_syllabi %}
+
+	<li><a href='/syllabus/{{x.url}}'>{{x.name}}</a></li> 
+{% endfor %}
+
+</ul>
+</body>
+
+
+
+
+
+</html>

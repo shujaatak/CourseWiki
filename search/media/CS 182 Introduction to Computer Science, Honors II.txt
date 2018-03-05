@@ -1,0 +1,17 @@
+CS 182 Introduction to Computer Science, Honors IIThe Software Life cycle, Complexity Analysis (big-O,
+      big-Theta, big-Omega) 
+      Lists, Stacks and Queues
+      Trees (binary trees, binary search trees)
+      Max/Min Heaps, Priority Queues
+      Programming in C
+      Sorting algorithms
+      Hashing
+      Self Balancing Binary Trees (AVL Trees, Red-Black Trees)
+      General Trees (B-Trees, B+Trees, 2-3 Trees, 2-3-4 Trees)
+      Graphs
+      More on Graphs (Floyd, Dijkstra, Prim, Kruskal, Warshall)
+      Maximum-Flow problem 
+      Theory of different problem solving techniques (Brute
+      Force, Greedy, Dynamic Programming, ...)
+      P, NP and NP-Complete problems
+      

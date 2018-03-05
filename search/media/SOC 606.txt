@@ -1,0 +1,18 @@
+SOC 606Orientation.  Review: XHTML, CSS.  Review: C#
+      Internet applications.  Getting started with ASP.NET.
+      Web controls.  Input validation.
+      Advanced C#: Objects, Inheritance, Delegates.
+      Consistent Web site design and ADA.  State Maintenance and
+      Navigation.
+      ASP.NET AJAX.  Web services. jQuery.
+      User controls.  Exception handling, debugging and tracing.
+      Database queries I
+      Database queries II
+      Database updates
+      Application Architecture and LINQ.  ADO.NET Entity Framework.
+      Basic Web security model.
+      Basic Web security model.
+      User authentication and session management.  HTTPS:
+      Goals and pitfalls.
+      Web application security.
+      

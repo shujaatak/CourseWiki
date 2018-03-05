@@ -1,0 +1,15 @@
+CS 105 Introduction to Scientific ComputingConcepts of Computation and Algorithms. MATLAB environment
+      Variables and Arrays
+      Data files and built-in functions, Simple Plotting
+      Pseudocode and flowcharting
+      Logical Operations
+      If statements and switch
+      More plotting, while
+      For loop
+      Nested loops
+      User-defined functions
+      Strings and menus
+      Random numbers
+      Cell arrays and Structure arrays
+      Catch-up and Review
+      

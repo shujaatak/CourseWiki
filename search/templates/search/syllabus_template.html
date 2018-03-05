@@ -1,0 +1,29 @@
+<html>
+
+<head>
+{% load i18n %}
+{% include "/var/www/coursewiki/search/templates/search/navbar.html" %}
+</head>
+
+<body>
+<h1>{{temp_syllabus_name}}</h1>
+<object  style="width:-webkit-fill-available; height:40%;" type="text/plain" data="http://45.79.170.4/media/{{temp_syllabus_name}}.txt" border="0" >
+</object>
+<a href="{% url "review_create" content_type='syllabus' object_id=temp_syllabus_pk  %}?next=http://45.79.170.4{{request.path}}">{% trans "Review this course" %}</a>
+{% load review_tags %}
+
+{% get_reviews syllabus_obj as reviews %}
+{% for review in reviews %}
+    <h4>{{review.user}}</h4>
+     <p>
+        {{ review.content }}
+    </p>
+   
+{% endfor %}
+
+
+
+</body>
+
+
+</html>

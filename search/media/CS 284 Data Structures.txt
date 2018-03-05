@@ -1,0 +1,18 @@
+CS 284 Data StructuresJava Syntax Refresher
+      Software Design Principles: software life cycle, types
+      of testing, etc.; big-O and loop invariants
+      Inheritance, interfaces, basics of lists
+      Array Based Lists, linked lists
+      Double-linked lists, iterators, the Collection interface
+      Stacks
+      Queues
+      Midterm & Recursion
+      More recursions
+      Tree Basics, Complete Binary Tree, Full Binary Tree, etc.
+      Binary Search Trees, max and min heaps, priority queues,
+      Huffman trees
+      Sorting algorithms: bubble, insertion, selection,
+      shellsort, quicksort, mergesort & heapsort
+      Sets & Maps; hash tables and hashing techniques
+      Self-balancing binary trees: Red-black trees, AVL trees
+      

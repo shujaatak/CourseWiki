@@ -1,0 +1,35 @@
+CS 526 Enterprise and Cloud Computing 
+Introduction to enterprise and cloud computing: SaaS, PaaS, IaaS.
+Introduction to Windows Azure and Amazon EC2. 
+      
+Server-side processing: ASP.NET MVC
+      
+Application architectures and database storage.  Entity Framework and
+Language in Query (LINQ).
+      
+Web server security. Authentication and authorization.  Threats and
+defenses: SQL injection, XSS, CSRF.
+      
+Cloud storage: Blobs, NoSQL (Tables) and Relational (SQL Database).  CDNs.
+      
+Services and Contracts.  Web services for B2B E-commerce: SOAP, WSDL,
+WS-Policy.  Example: Google Adwords.  WCF contract languages. 
+      
+Web Services: WCF sessioning and design patterns.  WCF concurrency control.
+      
+Queues and Service Bus.  WCF and Azure Service Bus security.  Azure
+cloud services.
+      
+NoSQL: MongoDB.   MongoDB views MapReduce.
+      
+Virtualization
+      
+Secure virtualization. KVM and SELinux.  Type enforcement.  SVirt.
+      
+SELinux: Roles and MLS.
+      
+Input-output virtualization.  Data center design: virtualization and
+interconnection networks.
+      
+Map-Reduce queries in MongoDB.  Hadoop in Windows Azure.  Web API.
+      

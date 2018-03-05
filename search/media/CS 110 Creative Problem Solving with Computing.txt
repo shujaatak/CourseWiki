@@ -1,0 +1,2 @@
+CS 110 Creative Problem Solving with ComputingPicobot and PythonChoices and repetitions; if-elif-else and loops;
+              operations on strings; functions; listsGenes and Gene finding; functions on strings; while loopsReview and Exam 1Population Genetics; RecursionUse-it-or-lose-it principleString alignment; Comparing DNA sequencesReview and Exam 2Phylogenetics; Recursion on treesUPGMA; Tree distance; Dictionaries; RNA foldingMemoization; NP-hardnessReview and Exam 3Object Oriented ProgrammingDigital Circuits; Binary Computation

@@ -1,0 +1,58 @@
+<html>
+
+
+<head>
+{% include "/var/www/coursewiki/search/templates/search/navbar.html" %}
+</head>
+
+<body>
+<div class='topbar' style='border:double;margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+    background: #ff8d00; text-align:center;'><h1 style="display:inline;"> Projects </h1>
+  <a href='/submitproject' style="text-align:right; text-decoration:none;">submit a project </a>
+</div>
+<div class='project_list' style="
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: double;
+    background: #f6f6ef; " >
+{% for x in projects %}
+
+<div class='project'>
+<h5  class='project_name' style='margin-bottom:0px;'>{{forloop.counter0|add:projects.start_index}}. {{x.project_name}}</h5>
+<p class='username' style='color: darkred; margin-top:0px; margin-left:15px; margin-bottom:0px;'>  by <a href='http://{{ x.public_profile }}'> 
+{% if x.first_name == '' %}
+	{{x.user_id}}
+{% else %}
+	{{x.first_name}}
+{% endif %} </a> | project link:<a href="http://{{x.project_url}}" style="text-decoration:none;"> {{x.project_url}} </a>  </p>
+<p class='project_description' style="margin-top:7px; margin-left:15px;"> {{x.project_description}}</p> 
+</div>
+
+{%endfor%}
+</div>
+
+
+<div class="pagination">
+    <span class="step-links">
+        {% if projects.has_previous %}
+            <a href="?page=1">&laquo; first</a>
+            <a href="?page={{ projects.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ projects.number }} of {{ projects.paginator.num_pages }}.
+        </span>
+
+        {% if projects.has_next %}
+            <a href="?page={{ projects.next_page_number }}">next</a>
+            <a href="?page={{ projects.paginator.num_pages }}">last &raquo;</a>
+        {% endif %}
+    </span>
+</div>
+
+</body>
+</html>

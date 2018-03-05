@@ -1,0 +1,22 @@
+CS 181 Introduction to Computer Science, Honors IComputer architecture overview: instructions, data, binary arithmeticComputer representation of numerical data; numeric literals in JavaComputer representation of non-numerical data; Java Strings; Java literals for the char and String types.Boolean algebra. Expressions. Assignments. Short-circuited evaluation.Programming fundamentals: variable declarations and
+      initialization; statements; blocks; decision and repetition
+      control structures.
+      Programming fundamentals: Syntax, semantics, and
+      style. Documenting programs: Style, comments, and naming conventions.
+      Method invocation: arguments and formal parameters. OOP
+      concepts: encapsulation. Scope & visibility.
+      Java arrays. The queue abstract data type. The stack
+      abstract data type.
+      Java packages. Typical memory layout of executing
+      programs. The activation stack & the memory heap 
+      OOP concepts: Inheritance. Method overriding. Abstract
+      methods and classes. Interfaces.
+      The Java exception hierarchy. Throwing and catching
+      exceptions. 
+      OOP concepts: Polymorphism. Dynamic binding:
+      examples. Type casting and the instanceof operator.
+      Event-driven (GUI) programming.  Components, Events,
+      Listeners. Swing components.
+      Algorithm design techniques: Reduction and
+      recursion. Writing recursive methods. Recursive data types. 
+      

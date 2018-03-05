@@ -1,0 +1,28 @@
+CS 488 Computer Architecture
+        Introduction; Fundamentals of Computer Design
+      
+        Quantitative Approach to Design
+      
+        Instruction Set Design
+      
+        MIPS RISC architecture
+      
+        Basic Pipelining
+      Intermediate pipelining
+      
+        Instruction level parallelism
+      
+        Branch prediction, speculation, and superscalar
+      
+        Basic Memory Hierarchy Design
+      
+        Memory Performance
+      
+        Cache performance optimization
+      
+        Multi-Processor and Cache Coherency
+      
+        Cache coherency protocols
+      
+        Summary and conclusion
+      

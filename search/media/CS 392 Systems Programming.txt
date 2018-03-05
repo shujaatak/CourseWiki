@@ -1,0 +1,15 @@
+CS 392 Systems ProgrammingUNIX commands, The C Preprocessor
+      Static vs Dynamic Binding, Libraries, pointers
+      Strings and string manipulation in C, void*, malloc, free
+      Using I/O with system calls, buffered vs unbuffered writing
+      Makefiles, debuggers, Version Control with RCS & CVS 
+      Concurrent operations, fork & pipes
+      Shell principles, exec family of functions, naming conventions
+      Permissions and IDs (real uid, effective uid, set-uid, etc.)
+      Signals
+      Sockets and using TCP/IP
+      X Window System
+      GTK+ 2.0
+      Shell scripting
+      Terminal Input/Output, termios.h, canonical vs non-canonical read, termcaps
+      

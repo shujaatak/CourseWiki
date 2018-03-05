@@ -1,0 +1,16 @@
+CS 492 Operating SystemsProcesses and threads
+      Process management: synchronization
+      Process management: synchronization
+      Process management: scheduling
+      Process management: deadlocks
+      Memory management: virtual memory
+      Memory management: hardware review (MMU), mulitprogramming, relocation
+      File systems: hardware review (disks), models of file
+      storage and retrieval
+      File systems: models, disk data structures
+      File systems: disk data structures
+      Input/Output: hardware review (various I/O devices and I/O buses)
+      Input/Output: software
+      Input/Output: disks
+      Security
+      

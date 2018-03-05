@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+
+  {% load static %}
+  <meta charset="UTF-8">
+  <title>Search Box and Button Animated</title>
+  
+   
+      <link rel="stylesheet" type="text/css" href="{% static 'search/style.css' %}" />
+
+</head>
+
+<body>
+
+{% include "/var/www/coursewiki/search/templates/search/navbar.html" %}
+
+<div style="clear:both;">
+<form action="result/" method="get" style:"float:left;">{% csrf_token %} 
+
+{{form}}    
+   
+  
+<input type="submit" id="btn" class="material-icons" value="send" name="button"/>
+<span id="line"></span>
+</form>
+</div>  
+    <script src="js/index.js?rand=71777"></script>
+
+<br>
+<div style="
+    font-size: 18px;
+    text-align: center;">
+<p>If you are visiting this website for the first time please head to the <a href="https://medium.com/@virajgite/w-i-m-s-o-n-3cf431da97f">About</a> page to get started.</p>
+
+
+</div>
+
+
+</body>
+
+</html>
